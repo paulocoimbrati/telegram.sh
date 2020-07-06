@@ -8,7 +8,7 @@ fi
 ## CONFIG ##
 ############
 dirname=`dirname $0`
-telegram=".${dirname}/telegram"
+telegram="${dirname}/telegram"
 
 ############
 ##   END  ##
@@ -77,6 +77,5 @@ ${acao}
 
 _EOF_
 `
-echo "${telegram} -H -t ${tgToken} -c ${tgChatId} \"${msg}\""
-echo `${telegram} -H -t ${tgToken} -c ${tgChatId} "${msg}"`
+`${telegram} -H -t ${tgToken} -c ${tgChatId} "${msg}"`
 #echo $telegram
