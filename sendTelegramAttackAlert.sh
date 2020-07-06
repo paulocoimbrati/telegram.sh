@@ -1,6 +1,6 @@
 #!/bin/bash
 if [[ $# -ne 8 ]]; then
-	echo "Incorrect number of arguments.\nUsage: ${0} <TOKEN> <CHATID> <IP> <ANOMALIA> <POWER> <RESPONSE> <ACTION>"
+	echo "Incorrect number of arguments.\nUsage: ${0} <TOKEN> <CHATID> <IP> <ANOMALIA> <POWERPPS> <POWERBPS> <RESPONSE> <ACTION>"
 	exit 1
 fi
 
