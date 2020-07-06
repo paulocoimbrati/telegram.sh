@@ -7,7 +7,8 @@ fi
 ############
 ## CONFIG ##
 ############
-telegram="./telegram "
+dirname=`dirname $0`
+telegram=".${dirname}/telegram"
 
 ############
 ##   END  ##
